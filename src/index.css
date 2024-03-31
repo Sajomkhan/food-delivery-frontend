@@ -29,3 +29,47 @@ a{
     opacity: 1;
   }
 }
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+.app{
+  width: 80%;
+}
+}
+
+@media (max-width: 768px) {
+.app{
+  width: 90%;
+}
+}
+
+@media (max-width: 640px) {
+.app{
+  width: 94%;
+}
+p{
+  font-size: 14px;
+}
+.footer li{
+  font-size: 14px;
+}
+}
+
+/* @media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+
+} */

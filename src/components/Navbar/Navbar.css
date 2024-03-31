@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.logo {
+.navbar .logo {
   width: 150px;
 }
 
@@ -14,7 +14,7 @@
   display: flex;
   gap: 20px;
   color: #49557e;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .navbar-right {
@@ -34,20 +34,20 @@
   transition: 0.3s;
 }
 
-.navbar button:hover{
-    background: #fff4f2;
+.navbar button:hover {
+  background: #fff4f2;
 }
 
-.navbar .active{
-    padding-bottom: 2px;
-    border-bottom: 2px solid #49557e;
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #49557e;
 }
 
-.navbar li{
+.navbar li {
   cursor: pointer;
 }
 
-.navbar-basket-icon{
+.navbar-basket-icon {
   position: relative;
 }
 
@@ -59,4 +59,38 @@
   top: -8px;
   right: -8px;
   border-radius: 50%;
+}
+
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+  .navbar .logo {
+    width: 140px;
+  }
+  .navbar-menu {
+    gap: 20px;
+    font-size: 16px;
+  }
+  .navbar-right {
+    gap: 30px;
+  }
+  .navbar-right img {
+    width: 22px;
+  }
+  .navbar-right button {
+    padding: 8px 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+
 }
