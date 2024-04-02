@@ -26,9 +26,13 @@
 }
 
 .cart-items-item .cross{
+  width: 18px;
+  margin-left: 10px;
+    background: #ec3b3b;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
     cursor: pointer;
-    margin-left: 10px;
-    padding: 10px;
-    background: tomato;
     
-}
+  }
