@@ -19,6 +19,7 @@ const FoodsProvider = (props) => {
   }
 
   useEffect(()=>{
+    console.log(cartItems);
   },[cartItems])
   
   const contextValue = {
