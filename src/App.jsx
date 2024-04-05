@@ -8,12 +8,11 @@ import { useState } from "react";
 import LogingPopup from "./components/LoginPopup/LoginPopup";
 
 const App = () => {
-
-  const [showLogin, setShowLogin] = useState(false)
+  const [showLogin, setShowLogin] = useState(false);
 
   return (
     <>
-    {showLogin?<LogingPopup  setShowLogin={setShowLogin} /> : ""}
+      {showLogin ? <LogingPopup setShowLogin={setShowLogin} /> : ""}
       <div className="app">
         <Navbar setShowLogin={setShowLogin} />
         <Routes>

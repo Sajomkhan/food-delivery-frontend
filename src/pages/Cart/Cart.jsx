@@ -1,5 +1,4 @@
 import "./Cart.css";
-import { food_list } from "./../../assets/assets";
 import { useContext } from "react";
 import { FoodsContext } from "../../context/FoodsContext";
 import { useNavigate } from "react-router-dom";
