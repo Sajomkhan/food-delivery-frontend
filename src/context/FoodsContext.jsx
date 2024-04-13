@@ -1,8 +1,10 @@
 import { createContext, useEffect, useState } from "react";
 import { food_list } from "../assets/assets";
 
+// Create context 
 export const FoodsContext = createContext(null);
 
+// Context provider
 const FoodsProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
 
