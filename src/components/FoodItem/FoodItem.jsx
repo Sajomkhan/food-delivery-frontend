@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { assets } from "../../assets/assets";
-import "./FoodItem.css";
 import { FoodsContext } from "../../context/FoodsContext";
+import "./FoodItem.css";
 
 function FoodItem({ id, name, description, price, image }) {
   const {
