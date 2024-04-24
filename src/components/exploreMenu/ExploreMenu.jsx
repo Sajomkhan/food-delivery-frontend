@@ -9,7 +9,7 @@ const ExploreMenu = ({ category, setCategory }) => {
       <p className="explore-menu-text">
         Choose from a diverse menu featuring a delectable array Lorem, ipsum
         dolor sit amet consectetur adipisicing elit. Aperiam quis quia
-        explicabo. Quasi, adipisci at magnam soluta esse quia qui?
+        explicabo. Quasi, adipisci at magnam soluta esse qui?
       </p>
       <div className="explore-menu-list">
         {menu_list.map((item, index) => {
