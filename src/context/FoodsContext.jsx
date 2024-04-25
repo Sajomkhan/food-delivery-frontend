@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { food_list } from "../assets/assets";
 
-// Create context 
+// Create Context 
 export const FoodsContext = createContext(null);
 
 // Context provider
