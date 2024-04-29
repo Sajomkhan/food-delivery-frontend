@@ -81,7 +81,7 @@ export const assets = {
     bag_icon,
     parcel_icon
 }
-
+// --------------  Menu List -------------//
 export const menu_list = [
     {
         menu_name: "Salad",
