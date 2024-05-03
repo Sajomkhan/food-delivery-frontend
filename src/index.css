@@ -31,6 +31,8 @@ a{
   }
 }
 
+/* Mediaquery for responsive design */
+
 @media (max-width: 1280px) {
 
 }
