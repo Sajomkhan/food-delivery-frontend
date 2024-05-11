@@ -30,7 +30,7 @@ const LogingPopup = ({ setShowLogin }) => {
         </button>
         <div className="login-popup-condition">
           <input type="checkbox" required />
-          <p>By continuing, I agree to the terms of privacy policy.</p>
+          <p>By continuing, I agree to the terms of privacy policy. </p>
         </div>
         {currentState === "Login" ? (
           <p>
