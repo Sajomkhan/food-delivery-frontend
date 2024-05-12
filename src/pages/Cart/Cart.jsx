@@ -42,7 +42,7 @@ const Cart = () => {
           }
         })}
       </div>
-      {/* ============ Bottom Part ============ */}
+      {/* ============ Bottom Part ============= */}
       <div className="cart-bottom">
         <div className="cart-total">
           <h2>Cart Total</h2>
